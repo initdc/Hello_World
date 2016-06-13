@@ -8,3 +8,7 @@ I regret that I didn't study hard at English,forgive my poor English.
 
 Waiting for Anna.
 Danny
+
+Finally,I know how to sync the code from GitHub,I understand ssh git clone sudo apt repo tsinghua key hide ...
+I feel good,it's really not bad.
+Just so so.
