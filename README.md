@@ -10,6 +10,7 @@ Waiting for Anna.
 Danny
 
 Finally,I know how to sync the code from GitHub,I understand ssh git clone sudo apt repo tsinghua key hide ...
+
 I feel good,it's really not bad.
 Just so so.
 
@@ -17,3 +18,5 @@ Pushing the file to the GitHub is really not easy for me,ORZ.
 Boss is coming,I think I have to close the VMware,tired but happy.
 
 See,I learn many things from code cademy.The man who built the web is so great.
+
+It's fanny, but not be interesting.
