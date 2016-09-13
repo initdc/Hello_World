@@ -8,3 +8,5 @@ I regret that I didn't study hard at English,forgive my poor English.
 
 Waiting for Anna.
 Danny
+
+It's fanny, but not be interesting.
