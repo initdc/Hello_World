@@ -1,0 +1,17 @@
+#GitHub
+Host github.com
+    Hostname github.com
+    IdentityFile ~/.ssh/id_rsa
+    user git
+    
+#Bitbucket
+Host bitbucket.org
+    Hostname bitbucket.org
+    IdentityFile ~/.ssh/id_rsa
+    user git
+    
+#Coding
+Host coding.net
+    Hostname git.coding.net
+    IdentityFile ~/.ssh/id_ras_coding
+    user git

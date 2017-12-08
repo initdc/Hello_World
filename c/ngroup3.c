@@ -2,7 +2,7 @@
 
 int main()
 {
-	int q,w;
+	int q,w,x,p;
 	int R[10];
 	
 	int c,g,nwhite,nother;
@@ -25,21 +25,4 @@ int main()
 		printf(" %d",ngroup[g]);
 	printf(", white space:%d, other:%d\n",nwhite,nother);
 	
-	printf("W|");
-	for (q = 0;q < nwhite;++q)
-		printf("<");
-	printf("\n");
-	
-	printf("O|");
-	for (w = 0;w < nother;++w)
-		printf(">");
-	printf("\n");
-	
-	for (g = 0;g < 10;++g)
-	{
-		printf("%d|",g);
-		for (R[g] = 0;R[g] < ngroup[g];++R[g])
-			printf("#");
-		printf("\n");
-	}
 }
