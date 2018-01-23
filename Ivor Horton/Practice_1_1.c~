@@ -1,0 +1,9 @@
+/* Practice 1.1 My name and address */
+#include <stdio.h>
+
+int main(void)
+{
+  printf("My name is RicardoM7u\n");
+  printf("I live in the captial city of China, Beijing.");
+  return 0;
+}
