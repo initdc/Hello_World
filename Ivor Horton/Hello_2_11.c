@@ -16,8 +16,16 @@ int main(void)
 	printf("Variables of type long long store values from %lld to %lld.\n",LLONG_MIN,LLONG_MAX);
 	printf("Variables of type unsigned long long store values from 0 to %llu.\n",ULLONG_MAX);
 	
-	printf("\nThe size of the smallest postive non-zero value of float is %e.\n",FLT_MIN);
-	printf("The size of the largest value of 
+	printf("\nThe size of the smallest postive non-zero value of type float is %.6e.\n",FLT_MIN);
+	printf("The size of the largest value of type float is %.6e.\n",FLT_MAX);
+	printf("The size of the smallest postive non-zero value of type double is %.6e.\n",DBL_MIN);
+	printf("The size of the largest value of type double is %.6e.\n",DBL_MAX);
+	printf("The size of the smallest postive non-zero value of type long double is %.6Le.\n",LDBL_MIN);
+	printf("The size of the largest value of type long double is %.6Le.\n",LDBL_MAX);
 
+	printf("\nVriables of type float provide %u demical digits precision.\n",FLT_DIG);
+	printf("Vriables of type doubel provide %u demical digits precision.\n",DBL_DIG);
+	printf("Vriables of type long double provide %u demical digits presion.\n",LDBL_DIG);
+	
 	return 0;
 }
