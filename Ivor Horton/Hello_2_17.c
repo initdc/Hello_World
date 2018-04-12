@@ -12,6 +12,7 @@ int main (void)
 	
 	enum {red,orange,yellow,green,blue,gray,white,black} shirt_color;
 	shirt_color = blue;
+	printf("My shirt colour is %d\n",shirt_color);
 	
 	return 0;
 }
