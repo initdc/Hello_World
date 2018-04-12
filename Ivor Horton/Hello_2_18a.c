@@ -22,3 +22,4 @@ int main()
 	printf("The height of the tree is %.3Lf\n",h3);
 	
 	return 0;
+}
