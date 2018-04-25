@@ -13,7 +13,7 @@ int main(void)
 		total = 0.95 * unit_price * quantity;
 	else
 		total = unit_price * quantity;
-	printf("The price for %Ld is %.2Lf\n",quantity,total);
+	printf("The price for %Ld is %.5Lf\n",quantity,total);
 	
 	return 0;
 }
