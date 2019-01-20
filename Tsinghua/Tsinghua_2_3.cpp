@@ -14,7 +14,7 @@ int main()
 	cin >> date;
 	if(date<1 || date > 31)
 	{
-		cout<<"Date error,please retry"<<endl;
+		cout<<"Date error, please retry!"<<endl;
 		return 1;
 	}
 
