@@ -1,17 +1,24 @@
+# ~/.ssh/config
 #GitHub
 Host github.com
     Hostname github.com
-    IdentityFile ~/.ssh/id_rsa
+    IdentityFile ~/.ssh/id_ed25519_github
+    user git
+    
+#Gitlab
+Host gitlab.com
+    Hostname gitlab.com
+    IdentityFile ~/.ssh/id_ed25519_gitlab
     user git
     
 #Bitbucket
 Host bitbucket.org
     Hostname bitbucket.org
-    IdentityFile ~/.ssh/id_rsa
+    IdentityFile ~/.ssh/id_ed25519_bitbucket
     user git
     
 #Coding
-Host coding.net
-    Hostname git.coding.net
-    IdentityFile ~/.ssh/id_ras_coding
+Host e.coding.net
+    Hostname e.coding.net
+    IdentityFile ~/.ssh/id_ed25519_coding
     user git
