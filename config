@@ -1,4 +1,7 @@
 # ~/.ssh/config
+# ssh-keygen -t ed25519 -C 'initd@outlook.com'
+# ssh-keygen -m PEM -t rsa -b 4096 -C 'initd@outlook.com'
+
 #GitHub
 Host github.com
     Hostname github.com
@@ -21,4 +24,10 @@ Host bitbucket.org
 Host e.coding.net
     Hostname e.coding.net
     IdentityFile ~/.ssh/id_ed25519_coding
+    user git
+
+#divio
+Host git.divio.com
+    Hostname git.divio.com
+    IdentityFile ~/.ssh/id_rsa_divio
     user git
