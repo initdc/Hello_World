@@ -7,6 +7,19 @@ Host github.com
     Hostname github.com
     IdentityFile ~/.ssh/id_ed25519_github
     user git
+
+Host ssh.github.com
+    Hostname ssh.github.com
+    IdentityFile ~/.ssh/id_ed25519_github
+    Port 443
+    User git    
+
+#Local proxy demo
+Host localhost
+    Hostname localhost
+    IdentityFile ~/.ssh/id_ed25519_github
+    Port 2222
+    user git
     
 #Gitlab
 Host gitlab.com
